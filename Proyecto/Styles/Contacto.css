@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --------------Header---------------- */
+
+#cabecilla{
+    background-color: rgb(29, 41, 54);
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    border-bottom: rgb(22, 139, 218) 5px solid;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tituloHeader{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tituloDecorado{
+    margin-left: 10px;
+    color: rgb(22, 139, 218);
+}
+
+.menuNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* --------------Sección 1------------- */
+
+#seccion{
+    background-color: rgb(29, 41, 54);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suscripción{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1480px;
+}
+
+.tituloSub{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.casilla{
+    width: 250px;
+    height: 30px;
+}
+
+.sub{
+    color: aliceblue;
+    background-color: rgb(224, 74, 48);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: small;
+}
+
+/* --------------Sección 2-------------- */
+
+#seccion2{
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primerPedazo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre{
+    width: 100%;
+    height: 35px;
+    padding: 0%;
+}
+
+.correo{
+    width: 100%;
+    height: 35px;
+    padding: 0%;
+}
+
+.teléfono{
+    width: 100%;
+    height: 35px;
+    padding: 0%;
+}
+
+.celular{
+    width: 100%;
+    height: 35px;
+    padding: 0%;
+}
+
+.mensaje{
+    width: 100%;
+    height: 150px;
+    padding: 0%;
+}
+
+.boton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(224, 74, 48);
+    border: 0px;
+}
+
+.linkBoton{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.segundoPedazo{
+    background-color: rgb(29, 41, 54);
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    width: 35%;
+    height: 210px;
+    margin-top: 20px;
+
+}
+
+.textoPedazo1{
+    margin-left: 10px ;
+}
+
+.textoPedazo2{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.imagen{
+    margin-top:125px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* --------------Footer------------------- */
+
+#pie{
+    background-color: rgb(22, 139, 218);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue
+}
+
+@media screen and (max-width: 800px) {
+
+    cabecilla{
+        width: 100%;
+    }
+
+    .contenido{
+        width: 90%;
+    }
+    .menuNav{
+        width: 50%;
+    }
+
+    .contenido2{
+        width: 90%;
+    }
+
+    #seccion2{
+        width: 100%;
+        height: 115vh;
+    }
+    .primerPedazo{
+        width: 60%;
+    }
+
+    .imagen{
+        margin-top: 20px;
+        height: 380px;
+    }
+
+    .suscripción{
+        width: 90%;
+    }
+
+    .contenido3{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+
+    cabecilla{
+        width: 100%;
+    }
+
+    .contenido{
+        width: 90%;
+    }
+    .menuNav{
+        width: 50%;
+    }
+
+    .contenido2{
+        width: 90%;
+    }
+
+    #seccion2{
+        width: 100%;
+        height: 115vh;
+    }
+    .primerPedazo{
+        width: 60%;
+    }
+
+    .suscripción{
+        width: 90%;
+    }
+
+    .contenido3{
+        width: 90%;
+    }
+    
+}

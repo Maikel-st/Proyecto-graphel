@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal{
+    width: 100%;
+    max-width: 1500px;
+}
+
+/* --------------Header---------------- */
+
+#cabecilla{
+    background-color: rgb(29, 41, 54);
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    border-bottom: rgb(22, 139, 218) 5px solid;
+    width: 100%;
+
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.tituloHeader{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tituloDecorado{
+    margin-left: 10px;
+    color: rgb(22, 139, 218);
+}
+
+.menuNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* -------------Sección 1----------------- */
+
+#seccion{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.contenido2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tituloDecorado2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+/* --------------Sección 3------------------- */
+
+#seccion2{
+    background-color: rgb(29, 41, 54);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suscripción{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.tituloSub{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.casilla{
+    width: 250px;
+    height: 30px;
+}
+
+.sub{
+    color: aliceblue;
+    background-color: rgb(224, 74, 48);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: small;
+}
+
+/* --------------Sección 4------------------- */
+
+#seccion3{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenido3{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.imagen{
+    height: 100px;
+    width: 100px;
+}
+
+.caja{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 350px;
+}
+
+.parrafo{
+    font-size: medium;
+}
+
+/* --------------Footer------------------- */
+
+#pie{
+    background-color: rgb(22, 139, 218);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    #cabecilla{
+        width: 100%;
+    }
+
+    .contenido{
+        width: 90%;
+    }
+    .menuNav{
+        width: 50%;
+    }
+
+    .contenido2{
+        width: 90%;
+    }
+
+    #seccion2{
+        width: 100%;
+    }
+    
+    .suscripción{
+        width: 90%;
+    }
+
+    .contenido3{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    cabecilla{
+        width: 100%;
+    }
+
+    .contenido{
+        width: 90%;
+    }
+    .menuNav{
+        width: 50%;
+    }
+
+    .contenido2{
+        width: 90%;
+    }
+
+    #seccion2{
+        width: 100%;
+    }
+    
+    .suscripción{
+        width: 90%;
+    }
+
+    .contenido3{
+        width: 90%;
+    }
+    
+}
